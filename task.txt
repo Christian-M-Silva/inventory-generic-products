@@ -1,8 +1,8 @@
-- Inicializar o sistema com ts
-- Crie e configure o tsconfig.json com:
-    - "strict": true
-    - "target": "ES2020"
-    - "module": "CommonJS"
+x Inicializar o sistema com ts
+x Crie e configure o tsconfig.json com:
+    x "strict": true
+    x "target": "ES2020"
+    x "module": "CommonJS"
 - Criar um type (const) chamado category, para representar uma categoria de produtos, que só pode ser "electronics", "clothing" ou "food"
 - Criar interface com nome Product com essas props:
     - id: número
