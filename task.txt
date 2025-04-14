@@ -17,4 +17,4 @@ x Criar uma função genérica que
     x Receba por param uma lista de InventoryItem<Product>
     x Soma todos os quantity (que é o produto em estoque) recebidos e armazena esse valor
     x Retorne o total de produtos em estoque (quantity de todos os itens somados).
-- Criar uma chamada para função passando o product como generic
+x Criar uma chamada para função passando o product como generic
