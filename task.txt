@@ -4,12 +4,12 @@ x Crie e configure o tsconfig.json com:
     x "target": "ES2020"
     x "module": "CommonJS"
 x Criar um type chamado category, para representar uma categoria de produtos, que só pode ser "electronics", "clothing" ou "food"
-- Criar interface com nome Product com essas props:
-    - id: número
-    - name: string
-    - price: número
-    - inStock: boolean
-    - category: o type que eu criei chamado category
+x Criar interface com nome Product com essas props:
+    x id: número
+    x name: string
+    x price: número
+    x inStock: boolean
+    x category: o type que eu criei chamado category
 - Criar um type generico InventoryItem<T> que vai representar um objeto que é um item de inventário que possui:
     - uma propriedade data do tipo genérico T
     - uma propriedade quantity: número
