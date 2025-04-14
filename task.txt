@@ -3,7 +3,7 @@ x Crie e configure o tsconfig.json com:
     x "strict": true
     x "target": "ES2020"
     x "module": "CommonJS"
-- Criar um type (const) chamado category, para representar uma categoria de produtos, que só pode ser "electronics", "clothing" ou "food"
+x Criar um type chamado category, para representar uma categoria de produtos, que só pode ser "electronics", "clothing" ou "food"
 - Criar interface com nome Product com essas props:
     - id: número
     - name: string

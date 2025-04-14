@@ -1,0 +1,1 @@
+type category = "electronics" | "clothing" | "food"
