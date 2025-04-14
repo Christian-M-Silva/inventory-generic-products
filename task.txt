@@ -1,0 +1,19 @@
+- Inicializar o sistema com ts
+- Crie e configure o tsconfig.json com:
+    - "strict": true
+    - "target": "ES2020"
+    - "module": "CommonJS"
+- Criar um type (const) chamado category, para representar uma categoria de produtos, que só pode ser "electronics", "clothing" ou "food"
+- Criar interface com nome Product com essas props:
+    - id: número
+    - name: string
+    - price: número
+    - inStock: boolean
+    - category: o type que eu criei chamado category
+- Criar um type generico InventoryItem<T> que vai representar um objeto que é um item de inventário que possui:
+    - uma propriedade data do tipo genérico T
+    - uma propriedade quantity: número
+- Criar uma função genérica que
+    - Receba por param uma lista de InventoryItem<Product>
+    - Soma todos os quantity (que é o produto em estoque) recebidos e armazena esse valor
+    - Retorne o total de produtos em estoque (quantity de todos os itens somados).
